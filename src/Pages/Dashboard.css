@@ -1,0 +1,125 @@
+.middleDiv{
+    padding: 3% 3% 0;
+}
+
+
+/* ------------------------------------- CSS FOR THE LEFT HEADER TEXT ----------------------------------- */
+.greetings{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--Green-text-color);
+}
+.date{
+    color: var(--Black-color-secondary);
+    font-size: 14px;
+}
+.buyersDash{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Green-text-color);
+}
+/* ------------------------------------ Upcoming events -------------------------------- */
+/* Header */
+.upcomingEventsBox{
+    border: 1px solid var(--Black-color-primary);
+    border-radius: 10px;
+    padding: 30px 20px 20px;
+    width: 100%;
+}
+.upcomingHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.upcomingEvnets{
+    font-size: 18px;
+    font-weight: 600;
+    flex-basis: 50%;
+}
+
+/* Items */
+.upItemsDecor{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.separator{
+    width: 5px;
+    height: 40px;
+    background-color: var(--Green-rectangle-color);
+    border-radius: 10px;
+}
+.eventName{
+    font-size: 16px;
+}
+.eventDesc{
+    font-size: 14px;
+}
+
+/* -------------------------Pending Orders---------------- */
+.pendingOrdersBox{
+    border: 1px solid rgb(168, 45, 45);
+    border-radius: 10px;
+    padding: 30px 20px 20px;
+    width: 100%;
+}
+
+.imageBox{
+    height: 40px;
+    width: 50px;
+    background-color: var(--Black-color-secondary);
+}
+
+/* --------------------------Top services --------------------- */
+
+.topServicesBox{
+    border-radius: 10px;
+    padding: 30px 20px 20px;
+    width: 100%;
+    background-color: var(--Background-theme);
+}
+
+/* ---------------------------Recent Activity----------------- */
+.recentActivitiesBox{
+    border-radius: 10px;
+    padding: 30px 20px 20px;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ########################### CSS FOR THE RIGHT DIV ######################## */
+.rightDiv{
+    background-color: var(--Background-theme);
+}
+
+/* ---------------------------OrderStatus----------------------------- */
+.orderStatus{
+    font-size: 18px;
+    font-weight: 600;
+    flex-basis: 50%;
+}
+.orderHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.orderStatusBox{
+    border: 1px solid var(--Black-color-primary);
+    border-radius: 10px;
+    padding: 15px 20px 15px;
+    width: 100%;
+    margin-top: 30px;
+}
+.LatestPostsBox{
+    border-radius: 10px;
+    padding: 30px 20px 20px;
+    width: 100%;
+    background-color: white;
+}
+.NewOrdersBox{
+    border-radius: 10px;
+    padding: 30px 20px 20px;
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 100%;
+    background-color: white;
+}

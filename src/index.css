@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+:root {
+   --Green-text-color: #11875C;  /* For Green texts */
+   --Green-rectangle-color:#77D0B0; /* For Green rectangle backgrounds */
+   --Black-color-primary: #2E2E2D;   /* For black header texts */
+   --Black-color-secondary:#5D5C5C;  /* For black Detail texts */
+   --Background-theme:#F3F3F3; /* For the cream color at the background*/
+}
+
+/* --------------------------------- COMMON UIS----------------------- */
+.exploreButton{
+   margin-left: 1px;
+   font-weight: 600;
+   color: var(--Green-text-color);
+}
+
+
